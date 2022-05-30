@@ -1,0 +1,213 @@
+body  {
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: cornsilk;
+    border-bottom: 5px solid red;
+}
+.text {
+   
+    font-family: sans-serif;
+    height: 100px;
+    width: 10%;
+    margin: 20px;
+    
+}
+.logo {
+    height: 70px;
+    width: 10%;
+    float: right;
+    position: relative;
+    left: 20px;
+    background-position: right -300px;
+}
+.logo img {
+    width: 80%;
+    height: 70px;
+}
+.text p {
+    margin-top: 0;
+    font-size: 30px;
+    color: black;
+    transition: 1s;
+    float: right;
+    
+}
+.text p:hover {
+   margin-top: 0;
+    font-size: 40px;
+    color: blue;
+    cursor: pointer;
+}
+.button {
+    padding-top: 20px;
+    padding-left: 55px;
+    position: relative;
+    right: -60px;
+    
+}
+.button button {
+    font-size: 15px;
+    background-color: rgba(0, 128, 0, 0.795);
+    color: #fff;
+    padding: 5px 15px;
+}
+.button button:hover {
+    cursor: pointer;
+}
+.navbar {
+    width: 100%;
+    height: 300px;
+   background-image: url(hhh.jfif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.navbar h1 {
+    text-align: center;
+    font-size: 65px;
+    
+    color: red;
+}
+.textile {
+   margin-left: 450px;
+   
+}
+.textile input {
+    padding: 8px 5px;
+    padding-right: 200px;
+}
+.textile button {
+    padding: 8px 10px;
+}
+.section {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(168, 167, 167);
+    display: flex;
+}
+.box {
+    height: 100%;
+    width: 24%;
+    background-color:rgb(72, 230, 72);
+    
+}
+.categories {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(206, 245, 169);
+    border-radius: 0 25px 25px 0;
+}
+.login {
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+.categories h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    padding-top: 20px;
+}
+.categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+.categories li {
+    font-size: 35px;
+    padding-top: 28px;
+    text-align: center;
+    border-bottom: 4px dashed black;
+    color: #555;
+}
+.categories li:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+} 
+.login h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    padding-top: 30px;
+}
+.login input {
+    display: block;
+ padding: 7px 3px;
+ margin: 35px 10px;
+ padding-right: 135px;
+}
+.login button {
+    margin-top: 20px;
+    padding: 8px 15px;
+    margin-left: 200px;
+    background-color: rgb(199, 124, 235);
+    color: #fff;
+}
+.login button:hover {
+    cursor: pointer;
+}
+.box-1 {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-2 {
+    background-color: #fff;
+    width: 19%;
+    height: 45%;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: .8s;
+}
+.box-2 img {
+    width: 100%;
+    height: 40%;
+}
+.box-2 h1 {
+    text-align: center;
+    margin: 0;
+}
+.box-2 h3 {
+    text-decoration: line-through;
+    margin: 0;
+    padding-top: 10px;
+}
+.box-2 p {
+    font-size: 40px;
+    color: #555;
+    margin: 0;
+    text-align: center;
+}
+.box-2:hover {
+    margin-top: 0;
+    box-shadow: 5px 5px 3px 3px #555;
+}
+.footer {
+    background-color: rgba(22, 192, 22, 0.767);
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    
+}
+.footer h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 150px;
+    font-size: 27px;
+    display: inline-block;
+}
+.footer h2 {
+    float: right;
+    padding-right: 100px;
+    font-size:25px ;
+    margin: 0;
+    padding-top: 15px;
+}
